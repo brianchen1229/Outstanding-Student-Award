@@ -9,13 +9,21 @@
   <style>
     body {
       margin: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background: white;
+      overflow: hidden;
     }
 
     img {
-      display: block;
-      width: 100%;
+      max-width: 100vw;
+      max-height: 100vh;
+      width: auto;
       height: auto;
+      object-fit: contain;
     }
   </style>
 </head>
